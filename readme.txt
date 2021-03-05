@@ -17,6 +17,9 @@ Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
 
+= 2.0.2 =
+* Bump version to test updater 2
+
 = 2.0.1 =
 * Bump version to test updater
 
