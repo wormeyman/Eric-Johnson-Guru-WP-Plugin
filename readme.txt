@@ -16,6 +16,9 @@ Code Snippets for my lovely Clients
 Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
+= 2.1.2 =
+* Bump version.
+
 = 2.1.1 =
 * Bump tested version.
 
