@@ -16,6 +16,8 @@ Code Snippets for my lovely Clients
 Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
+= 2.1.0 =
+* Add Google Chrome headers Google emailed everyone about on 2021-03-15.
 
 = 2.0.2 =
 * Bump version to test updater 2
