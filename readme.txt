@@ -3,7 +3,7 @@ Contributors: wormeyman
 Donate link: https://ericjohnson.guru
 Tags: private
 Requires at least: 5.0
-Tested up to: 5.4
+Tested up to: 5.7
 Stable tag: 4.3
 Requires PHP: 7.3
 License: GPLv2 or later
@@ -16,6 +16,9 @@ Code Snippets for my lovely Clients
 Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
+= 2.1.0 =
+* Bump tested version.
+
 = 2.1.0 =
 * Add Google Chrome headers Google emailed everyone about on 2021-03-15.
 
