@@ -2,7 +2,7 @@
 Contributors: wormeyman
 Donate link: https://ericjohnson.guru
 Tags: private
-Requires at least: 5.0
+Requires at least: 5.6
 Tested up to: 5.7
 Stable tag: 4.3
 Requires PHP: 7.3
@@ -16,6 +16,10 @@ Code Snippets for my lovely Clients
 Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
+= 2.1.3 =
+* Remove COOP and COEP headers
+* https://www.mediavine.com/google-search-console-new-requirements-for-sharedarraybuffer-emails/
+
 = 2.1.2 =
 * Bump version.
 
