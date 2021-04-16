@@ -16,6 +16,9 @@ Code Snippets for my lovely Clients
 Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
+= 2.1.4 =
+* Add CSS to dashboard to stop overscrolling on MacOS
+
 = 2.1.3 =
 * Remove COOP and COEP headers
 * https://www.mediavine.com/google-search-console-new-requirements-for-sharedarraybuffer-emails/

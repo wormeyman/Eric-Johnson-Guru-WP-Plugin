@@ -3,7 +3,7 @@
 Plugin Name: Eric Johnson Guru Plugin
 Plugin URI: https://ericjohnson.guru/
 Description: Code Snippets for my lovely Clients
-Version: 2.1.3
+Version: 2.1.4
 Author: Eric Johnson
 Author URI: https://ericjohnson.guru/
 License: MIT
@@ -17,6 +17,16 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
   'Eric-Johnson-Guru-WP-Plugin'
 );
 
+//Stop annoying overscroll on MacOS
+add_action('admin_head', 'ej_overscoll_fix');
+
+function ej_overscoll_fix() {
+  echo '<style>
+    body {
+      overscroll-behavior-y: none;
+    }
+  </style>';
+}
 
 // https://docs.wp-rocket.me/article/7-enabling-white-label
 // White Label WP ROCKET.
