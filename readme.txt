@@ -3,7 +3,7 @@ Contributors: wormeyman
 Donate link: https://ericjohnson.guru
 Tags: private
 Requires at least: 5.6
-Tested up to: 5.7
+Tested up to: 5.8
 Stable tag: 4.3
 Requires PHP: 7.3
 License: GPLv2 or later
@@ -16,6 +16,9 @@ Code Snippets for my lovely Clients
 Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
+= 2.2.0 =
+* Add Mediavine to JS exclusions in wp rocket.
+
 = 2.1.4 =
 * Add CSS to dashboard to stop overscrolling on MacOS
 
