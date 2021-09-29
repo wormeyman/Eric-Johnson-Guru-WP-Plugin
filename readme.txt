@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== Eric Johnson Guru Plugin ===
 Contributors: wormeyman
 Donate link: https://ericjohnson.guru
 Tags: private
@@ -16,6 +16,13 @@ Code Snippets for my lovely Clients
 Code Snippets for my lovely Clients. Various features and what not.
 
 == Changelog ==
+= 2.2.1 =
+* Add Remove Yoast canonical for web stories
+ * This should fix the duplicate canonical error on web stories.
+
+= 2.2.0 =
+* Add WP Rocket overrides for ad networks
+
 = 2.1.4 =
 * Add CSS to dashboard to stop overscrolling on MacOS
 

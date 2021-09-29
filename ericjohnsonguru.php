@@ -3,7 +3,7 @@
 Plugin Name: Eric Johnson Guru Plugin
 Plugin URI: https://ericjohnson.guru/
 Description: Code Snippets for my lovely Clients
-Version: 2.2.0
+Version: 2.2.1
 Author: Eric Johnson
 Author URI: https://ericjohnson.guru/
 License: MIT
@@ -22,6 +22,7 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 );
 
 //Stop overscroll on MacOS
+/** @return void  */
 function ej_overscoll_fix()
 {
   echo '<style>
@@ -50,3 +51,18 @@ function ej_exclude_strings_delay_js($pattern)
   return $pattern;
 }
 add_filter('rocket_delay_js_exclusions', 'ej_exclude_strings_delay_js');
+
+/**
+ * Remove Yoast canonical for web stories
+ *
+ * This should fix the duplicate canonical error on web stories.
+ */
+// remove Yoast canonical for web stories
+// https://wordpress.org/support/topic/web-story-plugin-is-conflicting-with-yoast-seo-2/
+function ej_remove_canonical()
+{
+  if (is_singular('web-story')) {
+    add_filter('wpseo_canonical', '__return_false');
+  }
+}
+add_action('wp', 'ej_remove_canonical');
