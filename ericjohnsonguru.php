@@ -26,7 +26,7 @@ $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 //Stop overscroll on MacOS
 /** @return void  */
-function ej_overscoll_fix()
+function ej_overscroll_fix()
 {
   echo '<style>
     body {
@@ -34,7 +34,7 @@ function ej_overscoll_fix()
     }
   </style>';
 }
-add_action('admin_head', 'ej_overscoll_fix');
+add_action('admin_head', 'ej_overscroll_fix');
 
 // https://docs.wp-rocket.me/article/7-enabling-white-label
 // White Label WP ROCKET.
