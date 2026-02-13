@@ -3,7 +3,7 @@
 Plugin Name: Eric Johnson Guru Plugin
 Plugin URI: https://ericjohnson.guru/
 Description: Code Snippets for my lovely Clients
-Version: 2.2.3
+Version: 2.3.0
 Author: Eric Johnson
 Author URI: https://ericjohnson.guru/
 Requires PHP: 8.2
