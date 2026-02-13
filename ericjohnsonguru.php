@@ -13,13 +13,15 @@ License URI: https://opensource.org/licenses/MIT
 // Standard plugin security, keep this line in place.
 defined('ABSPATH') or die();
 
-//Updates:
-require 'plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+require __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
   'https://github.com/wormeyman/Eric-Johnson-Guru-WP-Plugin/',
   __FILE__,
   'Eric-Johnson-Guru-WP-Plugin'
 );
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 //Stop overscroll on MacOS
 /** @return void  */
