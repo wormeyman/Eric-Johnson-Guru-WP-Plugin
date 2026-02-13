@@ -30,7 +30,7 @@ jobs:
       - name: Build zip
         run: |
           mkdir Eric-Johnson-Guru-WP-Plugin
-          cp -r ericjohnsonguru.php http-headers.php temp-wprocket-exclude.php readme.txt LICENSE plugin-update-checker Eric-Johnson-Guru-WP-Plugin/
+          cp -r ericjohnsonguru.php http-headers.php readme.txt LICENSE plugin-update-checker Eric-Johnson-Guru-WP-Plugin/
           zip -r Eric-Johnson-Guru-WP-Plugin.zip Eric-Johnson-Guru-WP-Plugin/
 
       - name: Create GitHub Release
