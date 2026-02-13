@@ -6,6 +6,7 @@ Description: Code Snippets for my lovely Clients
 Version: 2.2.3
 Author: Eric Johnson
 Author URI: https://ericjohnson.guru/
+Requires PHP: 8.2
 License: MIT
 License URI: https://opensource.org/licenses/MIT
 */

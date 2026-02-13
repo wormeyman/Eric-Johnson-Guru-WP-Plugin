@@ -3,9 +3,9 @@ Contributors: wormeyman
 Donate link: https://ericjohnson.guru
 Tags: private
 Requires at least: 5.6
-Tested up to: 5.8
+Tested up to: 6.9
 Stable tag: 2.2.3
-Requires PHP: 7.3
+Requires PHP: 8.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
