@@ -34,7 +34,7 @@ jobs:
           zip -r Eric-Johnson-Guru-WP-Plugin.zip Eric-Johnson-Guru-WP-Plugin/
 
       - name: Create GitHub Release
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           files: Eric-Johnson-Guru-WP-Plugin.zip
           generate_release_notes: true
